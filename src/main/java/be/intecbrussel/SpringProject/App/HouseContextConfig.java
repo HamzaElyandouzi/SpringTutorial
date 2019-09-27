@@ -7,6 +7,7 @@ import be.intecbrussel.SpringProject.tools.implentations.*;
 import org.springframework.context.annotation.*;
 
 @Configuration
+@ComponentScan("be.intecbrussel.SpringProject")
 public class HouseContextConfig {
 
     @Bean(name = "goodBroom")

@@ -4,6 +4,7 @@ import be.intecbrussel.SpringProject.Services.interfaces.CleaningService;
 import be.intecbrussel.SpringProject.Services.interfaces.DomesticService;
 import be.intecbrussel.SpringProject.Services.interfaces.GardeningService;
 
+
 public class DomesticServiceImpl implements DomesticService {
     private GardeningService gardeningService;
     private CleaningService cleaningService;
